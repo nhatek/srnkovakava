@@ -48,3 +48,25 @@
     font-size: 16px;
     font-weight: bolder;
 }
+
+.image-grid {
+    display: grid;
+    width: 500px;
+    height: 666px;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.vertical-img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+.horizontal-img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    grid-column: span 2;
+}
